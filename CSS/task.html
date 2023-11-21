@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zookeeper Application</title>
+</head>
+<body>
+    <center>
+        <h1><em></em> Zoo keeper Application Form</em></h1>
+        <h4>Please complete the form.Mandetry fields are marked as *</h4>
+    
+
+    </center>
+    <fieldset>
+        <legend><h2> <i>Contact Details</i></h2></legend>
+        
+        <table>
+            <tr>
+                <td>Name *             </td>
+                <td> <input type="text" name="name"></td>
+            </tr>
+            <tr>    
+                <td>Telephone          </td>
+                <td><input type="number" name="phone"></td>
+            </tr>
+            <tr>
+                 <td>Email Address*     </td>
+                 <td><input type="email" name="email"></td>
+                </tr></table>   
+    </fieldset><br><br>
+    <fieldset>
+        <legend><h2><i>Personal Information</i></h2></legend>
+       <table>
+        <tr>
+             <td>Age *       </td>
+             <td><input type="number" name="age"></td></tr>
+        <tr>
+             <td>Gender *    </td>
+             <td> <select>
+            <option name="Gender">Male</option>
+            <option name="Gender">Female</option>
+        </select></td></tr>
+        <tr>
+             <td>When did you<br>
+               first know you <br>
+               wanted to be a<br>
+               zoo-keeper?
+             </td>
+             <td><textarea rows="8" cols="30"></textarea></td></tr></table> 
+
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend><h2><i>Pick Your Favourate Animal</i></h2></legend>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="Animal">Zebra</td>
+                <td><input type="checkbox" name="Animal">Lion</td>
+                <td><input type="checkbox" name="Animal">Elephant</td>
+            </tr>
+            <tr>
+               <td><input type="checkbox" name="Animal">Buffalo</td>
+               <td> <input type="checkbox" name="Animal">Crocodile</td>
+               <td> <input type="checkbox" name="Animal">Female</td> 
+            </tr> 
+        </table>
+    </fieldset><br><br>
+    <input type="submit" value="Submit Application">   
+</body>
+</html>

@@ -1,0 +1,53 @@
+/*
+applying styles
+*/
+header{
+    background-color: royalblue;
+    height:  50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 46px;
+}
+nav{
+    float:left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 30%;
+    background-color:pink;
+    height: 100vh;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li{
+    padding: 30px 0;
+}
+article{
+    width: 70%;
+    height: 100vh;
+    padding-top: 150px;
+    background-color: bisque;
+    float:right;
+    text-align: center;
+    font-size: 40px;
+}
+/*pseudo element selector*/
+section::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    background-color: royalblue;
+    width: 100%;
+    padding: 30px;
+    font-size: 40px;
+}
+

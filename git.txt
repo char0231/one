@@ -1,0 +1,5 @@
+git init(for git initialization)
+git add . filename
+git add .(for adding all the files)
+git commit -m "message about ur changes"
+git log(to check the changes)

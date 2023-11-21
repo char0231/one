@@ -1,0 +1,15 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>practice</title>
+        <link rel="stylesheeet" herf="style.css">
+    </head>
+    <body>
+        <header> . </header>
+        <main>
+            <section id="name"></section>
+            <section id="course"></section>
+        </main>
+        <footer> </footer>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+/*
+styles with border properties
+*/
+p{
+   
+    border-top: dotted red 10px;
+    border-bottom: dotted blue 10px;
+    border-left: dotted green 10px;
+    border-right: dotted powderblue 10px;
+    
+}
